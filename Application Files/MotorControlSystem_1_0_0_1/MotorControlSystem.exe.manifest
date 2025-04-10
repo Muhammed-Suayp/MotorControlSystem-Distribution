@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MotorControlSystem.exe" version="1.0.0.1" publicKeyToken="f8d2e1525954658e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MotorControlSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MotorControlSystem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MotorControlSystem.exe" size="69088">
+      <assemblyIdentity name="MotorControlSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q0snXmdt5+tbLMGSkAYhtH7S9z7p9Q0fd6zcvdyLW38=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.CodeDom.dll" size="30488">
+      <assemblyIdentity name="System.CodeDom" version="9.0.0.4" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>o/tPly3v8dt526HDb6xEOTNAGroFzc5DsWNTQVGFTJ0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Drawing.Common.dll" size="50440">
+      <assemblyIdentity name="System.Drawing.Common" version="9.0.0.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kiAOZJLprSFoI7/eF/Uxd/6dFvqlyRZQKyf5y/WgN5A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MotorControlSystem.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-1V3F3TC\suayp" issuerKeyHash="51b765c8234164a4bc3c28e21d830f4592ba2724" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MnNhFB6skAGQnCtGj8t3Z3Nf1y1BoZQ7h4qoHMLIDiw=</DigestValue></Reference></SignedInfo><SignatureValue>PCuiOSzt/8rYOXW4Ijkztt5ZEf8FIWzp0AAH8GSzzHt6Fu3GQD66LAlg7I2b+lxsZos9rNvHO+IDbX5DqKXP7Y1JSLbFND9qjXLkjmzeP2l/12AFI3d7XEKNDMDNfnLSki7JdNbE/XSU015p92ZN3aX6hDfEhPRDGenh7z8DGmI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nSNhE69WtLG50ah5Bnywdb4cC83Z/fI9Ha3snLpyQNA/US/jnoUNamoqk2sKv+tA7TRGgqXXoMmfEZrprJfQxG+hDsrqJqw7uaB40i7G/wH0ZDBo/sxATDl1tyGQeRO8SUhqHu9CHWMAFVuTO1rplPwO6qB7dPQHFian98G24YE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2c0ec8c21ca88a873b94a1412dd75f736777cb8f462b9c900190ac1e14617332" Description="" Url=""><as:assemblyIdentity name="MotorControlSystem.exe" version="1.0.0.1" publicKeyToken="f8d2e1525954658e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1V3F3TC\suayp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SjiVr4VVdVTdHsrjQv1yuqXv/sfAevI++3LMm/nS37w=</DigestValue></Reference></SignedInfo><SignatureValue>Aa+ymHzQ6wUBfrCLZ/ELNSfanSAeAgURJJxUiXlH7bEIrkLA06jWMnC1ksXt4VU7wrEDpo4TX01xb6PT1V9SIp6Abf92Iz02+Ud3P2oUiYOOzGg3s3ePkaCwJ1YAJHBGMLWwYRrh+mPRVMBIXcb98PhV4TagGtBqvC25OPOmOJ4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nSNhE69WtLG50ah5Bnywdb4cC83Z/fI9Ha3snLpyQNA/US/jnoUNamoqk2sKv+tA7TRGgqXXoMmfEZrprJfQxG+hDsrqJqw7uaB40i7G/wH0ZDBo/sxATDl1tyGQeRO8SUhqHu9CHWMAFVuTO1rplPwO6qB7dPQHFian98G24YE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQM8YFjnmqMptLq5dPB3JjiTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEAVgAzAEYAMwBUAEMAXABzAHUAYQB5AHAwHhcNMjUwNDEwMTE1NjAxWhcNMjYwNDEwMTc1NjAxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEAVgAzAEYAMwBUAEMAXABzAHUAYQB5AHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ0jYROvVrSxudGoeQZ8sHW+HAvN2f3yPR2t7Jy6ckDQP1Ev456FDWpqKpNrCr/rQO00RoKl16DJnxGa6ayX0MRvoQ7K6iasO7mgeNIuxv8B9GQwaP7MQEw5dbchkHkTvElIah7vQh1jABVbkzta6ZT8Duqge3T0BxYmp/fBtuGBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAULuP6eS2OROr+Z26AGMZ0LCPUql9aHRpCIemo+gcoEU74ldoosUAFNKgFw9bLoIbkC6zKr+n7IX5We9JUQTjwxaXav7X7kVOop735LJOEzhlAggQsN5RcuLU024F6imFPnwBmGTcTJE7cmG3NT5eBAvB4zdXFkaHB8XM6I56/TU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
